@@ -1,23 +1,27 @@
+/* Reset CSS */
 body {
   margin: 0;
   padding: 0;
+}
+
+/* Global styles */
+body {
   width: 100vw;
   height: 100vh;
-<<<<<<< HEAD
-  font-family: Arial, sans-serif; /* Örnek bir yazı tipi */
-  background-color: #f0f0f0; /* Arka plan rengi */
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
 }
 
 #threejs-container {
-  position: block;
-  margin: 0 auto; /* Sayfanın ortasında hizalama */
-  padding: 20px; /* İçeriğe dolgular ekleme */
-  width: 80%; /* İçeriğin genişliği */
-  max-width: 1200px; /* Maksimum genişlik */
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 1200px;
   height: 80vh;
-  background-color: #fff; /* İçerik arka plan rengi */
-  border-radius: 10px; /* Köşeleri yuvarlama */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Gölgelendirme */
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -26,9 +30,10 @@ body {
 }
 
 #threejs-container h1 {
-  color: #333; /* Başlık rengi */
-  margin-bottom: 20px; /* Başlık alt boşluğu */
+  color: #333;
+  margin-bottom: 20px;
 }
+
 #control-panel {
   position: fixed;
   top: 20px;
@@ -50,15 +55,4 @@ body {
   text-align: center;
   margin-top: 5px;
   font-weight: bold;
-=======
-}
-#threejs-container {
-  position: block;
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-  height: 100vh;
-  background: linear-gradient(white, aqua);
-  overflow: hidden;
->>>>>>> 32225192f0dba20b4eeab3f2ef8954953ffb8e50
 }

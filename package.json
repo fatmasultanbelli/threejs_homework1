@@ -12,14 +12,11 @@
   },
   "devDependencies": {
     "gh-pages": "^6.1.0",
-<<<<<<< HEAD
-    "vite": "^4.5.2"
-=======
-    "vite": "^4.4.5"
->>>>>>> 32225192f0dba20b4eeab3f2ef8954953ffb8e50
+    "vite": "^4.5.2",
+    "lil-gui": "^0.19.1",
+    "three": "^0.158.0"
   },
   "dependencies": {
-    "lil-gui": "^0.19.1",
     "three": "^0.158.0"
   }
 }
